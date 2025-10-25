@@ -31,4 +31,8 @@ if (isMobile)
     img3.style.top = '210%'
     const ol4 = document.getElementById('ol-4')
     ol4.style.top = '240%'
+    const img4 = document.getElementById('img-4')
+    img4.style.top = '290%'
+    const END = document.getElementById('end')
+    END.style.top = '350%'
 }
