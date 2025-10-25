@@ -28,7 +28,7 @@ if (isMobile)
     const ol3 = document.getElementById('ol-3')
     ol3.style.top = '175%'
     const img3 = document.getElementById('img-3')
-    img3.style.top = '200%'
+    img3.style.top = '210%'
     const ol4 = document.getElementById('ol-4')
     ol4.style.top = '240%'
 }
