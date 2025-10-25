@@ -1,7 +1,8 @@
-const isMobile = window.innerWidth < 600
+const isMobile = window.innerWidth / window.innerHeight < 1
 
 if (isMobile)
 {
+    console.log('mobile')
     const images = document.getElementsByTagName("img")
     for (let i = 0; i < images.length; i++)
     {
@@ -18,4 +19,16 @@ if (isMobile)
     img1.style.top = '93%'
     const ol2 = document.getElementById('ol-2')
     ol2.style.top = '116%'
+    const img2 = document.getElementById('img-2')
+    img2.style.top = '130%'
+    const p1 = document.getElementById('p1')
+    p1.style.top = '160%'
+    p1.style.left = "7%"
+    p1.style.width = "85%"
+    const ol3 = document.getElementById('ol-3')
+    ol3.style.top = '175%'
+    const img3 = document.getElementById('img-3')
+    img3.style.top = '200%'
+    const ol4 = document.getElementById('ol-4')
+    ol4.style.top = '240%'
 }
