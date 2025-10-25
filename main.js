@@ -16,4 +16,6 @@ if (isMobile)
     ol_1.style.top = '77%'
     const img1 = document.getElementById('img-1')
     img1.style.top = '93%'
+    const ol2 = document.getElementById('ol-2')
+    ol2.style.top = '116%'
 }
