@@ -34,5 +34,5 @@ if (isMobile)
     const img4 = document.getElementById('img-4')
     img4.style.top = '290%'
     const END = document.getElementById('end')
-    END.style.top = '350%'
+    END.style.top = '370%'
 }
