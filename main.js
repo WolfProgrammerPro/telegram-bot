@@ -14,6 +14,7 @@ if (isMobile)
         }
         
     }
+
     const h1 = document.getElementById('h1')
     h1.style.top = '15%'
      const what = document.getElementById('what')
@@ -46,7 +47,7 @@ if (isMobile)
     ol4.style.top = '240%'
     ol4.style.width = '70%'
     const img4 = document.getElementById('img-4')
-    img4.style.top = '290%'
+    img4.style.top = '270%'
     const END = document.getElementById('end')
     END.style.top = '370%'
     const ava = document.getElementById('ava')
