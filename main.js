@@ -53,7 +53,8 @@ if (isMobile)
     const ava = document.getElementById('ava')
     ava.style.left = '80%'
     const back = document.getElementById('back')
-    back.style.height = '380%'
+    back.removeAttribute('src')
+    back.style.background = "rgb(14,23,23)"
     const plus = document.getElementById('plus')
     plus.style.width = '50%'
     const ul1 = document.getElementById('ul1')
