@@ -50,11 +50,11 @@ if (isMobile)
     const END = document.getElementById('end')
     END.style.top = '370%'
     const ava = document.getElementById('ava')
-    ava.style.left = '85%'
+    ava.style.left = '80%'
     const back = document.getElementById('back')
     back.style.height = '380%'
     const plus = document.getElementById('plus')
-    plus.style.width = '30%'
+    plus.style.width = '50%'
     const ul1 = document.getElementById('ul1')
     ul1.style.width = '70%'
 }
