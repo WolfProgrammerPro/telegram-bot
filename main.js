@@ -17,6 +17,7 @@ if (isMobile)
 
     const h1 = document.getElementById('h1')
     h1.style.top = '15%'
+    h1.style.width = '30%'
      const what = document.getElementById('what')
     what.style.top = '25%'
     what.style.width = "70%"
