@@ -19,14 +19,14 @@ body{
     height: 15%;
     left: -0.1%;
     top: -1%;
-    background: linear-gradient(to right, rgb(54, 81, 237), rgb(196, 45, 128));
+    background: rgb(23, 33, 44);
 }
 
 .up p{
     font-size: 200%;
     width: 100%;
     position: absolute;
-    text-align: center;
+    text-align:center;
     top: -10%;
     color: white;
     font-family: Amris;
@@ -35,21 +35,25 @@ body{
 
 h1{
     font-size: 150%;
-    width: 70%;
+    width: 30%;
     color: white;
     font-family: Amris;
     position: absolute;
     left: 12px;
+    background-color: rgb(24, 37, 51);
+    border-radius: 20%;
     
 }
 
 .general{
     font-size: 130%;
-    width: 70%;
+    width: 80vh;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
+    border-radius: 20%;
     left: 15px;
+    background-color: rgb(24, 37, 51);
 }
 
 span{
@@ -66,6 +70,8 @@ ul{
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     height: 30%;
+    background-color: rgb(24, 37, 51);
+    border-radius: 20%;
 
 }
 
@@ -76,7 +82,8 @@ ol{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
-
+    background-color: rgb(24, 37, 51);
+    border-radius: 20%;
 }
 
 a{
