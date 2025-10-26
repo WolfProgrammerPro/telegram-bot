@@ -59,5 +59,5 @@ if (isMobile)
     plus.style.width = '50%'
     const ul1 = document.getElementById('ul1')
     ul1.style.width = '70%'
-    document.body.style.backgroundColor = 'rgba(33, 47, 66, 1)'
+    document.body.style.backgroundColor = 'rgb(150,189,142)'
 }
